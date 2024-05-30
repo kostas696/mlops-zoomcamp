@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Jasmina%20PC/Downloads/mlops2/mlruns/584978072540560010/b704c36a81474c72a325f4ca97c4c724/artifacts
+end_time: 1716840831807
+entry_point_name: ''
+experiment_id: '584978072540560010'
+lifecycle_stage: active
+run_id: b704c36a81474c72a325f4ca97c4c724
+run_name: amusing-carp-123
+run_uuid: b704c36a81474c72a325f4ca97c4c724
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716840740078
+status: 3
+tags: []
+user_id: Jasmina

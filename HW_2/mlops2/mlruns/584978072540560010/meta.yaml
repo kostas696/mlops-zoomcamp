@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/Jasmina%20PC/Downloads/mlops2/mlruns/584978072540560010
+creation_time: 1716820821241
+experiment_id: '584978072540560010'
+last_update_time: 1716820821241
+lifecycle_stage: active
+name: Taxi_Duration_Experiment

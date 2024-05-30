@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Jasmina%20PC/Downloads/mlops2/mlruns/584978072540560010/425db1fbb57c4968b4a52cd9557c857f/artifacts
+end_time: 1716820925368
+entry_point_name: ''
+experiment_id: '584978072540560010'
+lifecycle_stage: active
+run_id: 425db1fbb57c4968b4a52cd9557c857f
+run_name: mysterious-mouse-752
+run_uuid: 425db1fbb57c4968b4a52cd9557c857f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716820826202
+status: 3
+tags: []
+user_id: Jasmina
