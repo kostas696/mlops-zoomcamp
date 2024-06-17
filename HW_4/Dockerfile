@@ -1,0 +1,13 @@
+FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
+
+WORKDIR /app
+
+# Copy the script into the container
+COPY predict.py .
+
+# Install necessary libraries
+RUN pip install pandas pyarrow scikit-learn==1.5.0
+
+# Command to run the script
+ENTRYPOINT ["python", "predict.py"]
+
