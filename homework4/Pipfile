@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mlflow = "*"
+jupyter = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+hyperopt = "*"
+xgboost = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
