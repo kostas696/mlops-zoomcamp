@@ -6,12 +6,13 @@ name = "pypi"
 [packages]
 mlflow = "*"
 jupyter = "*"
+pandas = "*"
 numpy = "*"
+scikit-learn = "*"
 matplotlib = "*"
 seaborn = "*"
 hyperopt = "*"
 xgboost = "*"
-pandas = "*"
 
 [dev-packages]
 
