@@ -1,0 +1,12 @@
+FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
+
+WORKDIR /app
+
+# Copy your script into the image
+COPY hw4.py .
+
+# Install any necessary dependencies
+RUN pip install pandas scikit-learn==1.5.0 pyarrow
+
+# Set the entrypoint
+ENTRYPOINT ["python", "hw4.py"]
