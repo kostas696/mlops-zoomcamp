@@ -1,0 +1,84 @@
+{
+  "name": "NYC Taxi Data Quality Project",
+  "panels": [
+    {
+      "type": "evidently.ui.dashboards.reports.DashboardPanelCounter",
+      "id": "693a4b21-0d97-4664-8cef-e17f2f9b457a",
+      "title": "NYC Taxi Data Dashboard",
+      "filter": {
+        "metadata_values": {},
+        "tag_values": [],
+        "include_test_suites": false
+      },
+      "size": 2,
+      "agg": "none",
+      "value": null,
+      "text": null
+    },
+    {
+      "type": "evidently.ui.dashboards.reports.DashboardPanelPlot",
+      "id": "6228a92c-c6b6-439f-964c-71227dfc0e61",
+      "title": "Inference Count",
+      "filter": {
+        "metadata_values": {},
+        "tag_values": [],
+        "include_test_suites": false
+      },
+      "size": 1,
+      "values": [
+        {
+          "field_path": "current.number_of_rows",
+          "metric_id": "DatasetSummaryMetric",
+          "metric_fingerprint": null,
+          "metric_args": {},
+          "legend": "count"
+        }
+      ],
+      "plot_type": "bar"
+    },
+    {
+      "type": "evidently.ui.dashboards.reports.DashboardPanelPlot",
+      "id": "6e09d78b-0003-4007-9863-07a6312ac7fe",
+      "title": "Number of Missing Values",
+      "filter": {
+        "metadata_values": {},
+        "tag_values": [],
+        "include_test_suites": false
+      },
+      "size": 1,
+      "values": [
+        {
+          "field_path": "current.number_of_missing_values",
+          "metric_id": "DatasetSummaryMetric",
+          "metric_fingerprint": null,
+          "metric_args": {},
+          "legend": "count"
+        }
+      ],
+      "plot_type": "line"
+    },
+    {
+      "type": "evidently.ui.dashboards.reports.DashboardPanelPlot",
+      "id": "c550cdb4-4be9-4993-81f8-1416bae78d7c",
+      "title": "Fare Amount Median (0.5 Quantile)",
+      "filter": {
+        "metadata_values": {},
+        "tag_values": [],
+        "include_test_suites": false
+      },
+      "size": 1,
+      "values": [
+        {
+          "field_path": "current.value",
+          "metric_id": "ColumnQuantileMetric",
+          "metric_fingerprint": null,
+          "metric_args": {},
+          "legend": "median"
+        }
+      ],
+      "plot_type": "line"
+    }
+  ],
+  "tabs": [],
+  "tab_id_to_panel_ids": {}
+}
