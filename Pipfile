@@ -13,6 +13,7 @@ matplotlib = "*"
 seaborn = "*"
 hyperopt = "*"
 xgboost = "*"
+s3fs = "*"
 
 [dev-packages]
 pytest = "*"
